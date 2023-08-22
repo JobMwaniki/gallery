@@ -1,9 +1,9 @@
 var config = {}
-
+const connectionString = 'mongodb+srv://jobmwanikinjuguna:Jj7cHXm2frsdZ7k6@gallery.n5mpm34.mongodb.net/darkroom?retryWrites=true&w=majority'
 // Update to have your correct username and password
 config.mongoURI = {
-    production: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom?retryWrites=true&w=majority',
-    development: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-dev?retryWrites=true&w=majority',
-    test: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-test?retryWrites=true&w=majority',
+    production: connectionString,
+    development: connectionString,
+    test: connectionString,
 }
 module.exports = config;
